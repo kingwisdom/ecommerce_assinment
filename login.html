@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/img-DS.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/preloader.js"></script>
+</head>
+<style>
+    body {
+        overflow-x: hidden;
+        font-family: "Montserrat";
+    }
+
+    #login-form {
+        width: 80%;
+        margin-left: 40px;
+
+    }
+
+    .control {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 15px;
+        border-radius: 5px;
+        border: none;
+        background-color: darkcyan;
+        color: white;
+        cursor: pointer;
+        margin: 15px 0;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        border-radius: 14px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        width: 100%;
+        border-radius: 14px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 10%;
+    }
+
+
+
+    figure>img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+        border-radius: 7px;
+    }
+</style>
+
+<body>
+    <div class="se-pre-con"></div>
+    <nav>
+        <ul>
+            <li class="primary-nav">
+                <img src="Images/img-DS.png" alt="logo" />
+                <a href="index.html">HOME</a>
+            </li>
+
+            <li class="secondary-nav">
+                <a href="login.html">LOGIN</a>
+            </li>
+            <li class="secondary-nav">
+                <a href="register.html">REGISTER</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Login</h1>
+    <div class="row" style="margin-top: 50px;">
+        <section class="mapouter col">
+            <div class="gmap_canvas">
+                <img width="100%" height="500vw"
+                    src="https://dashboard.snapcraft.io/site_media/appmedia/2022/11/login.png" />
+            </div>
+        </section>
+
+        <section id="about-us" class="col">
+
+            <form action="" id="login-form">
+                <h2>Login </h2>
+                <input class="control" type="text" placeholder="Email Address">
+                <input class="control" type="text" placeholder="Your Password">
+                <a href="#">Forgot Password</a>
+                <button class="btn">Login</button>
+
+            </form>
+            <a style="text-decoration: none; color: red; margin: 0 15px;text-align: center;" href="register.html">Didn't
+                have
+                account?
+                Register</a>
+        </section>
+    </div>
+
+
+    <footer>
+        <div class="row">
+            <div class="col-4">
+                <h1>Shocommerce</h1>
+            </div>
+            <div class="col-4">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="/shop.html">Catalog</a></li>
+                    <li><a href="/Contact-us.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <p>
+                    Copyright <sup>©</sup> 2024 site
+
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
