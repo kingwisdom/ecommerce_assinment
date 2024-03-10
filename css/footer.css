@@ -1,0 +1,27 @@
+footer {margin-top: 50px;
+    background-color: #1b212b;
+    color: white;
+  }
+  footer .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .col-4 ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .col-4 ul li {
+    list-style-type: none;
+  }
+  
+  .col-4 ul li a:hover {
+    color: brown;
+  }
+
+  @media (max-width: 768px) {
+    footer .row {
+      flex-direction: column;
+    }
+}
